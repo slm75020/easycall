@@ -8,10 +8,10 @@
     </feature>
     <name>easycall</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        EasyCall est une application de contact  ergonomique pensée pour les personnes qui ne sont pas familières avec les smartphones.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="slm75" href="slm75@hotmail.fr">
+        slm
     </author>
     <content src="index.html" />
     <access origin="*" />

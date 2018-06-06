@@ -39,20 +39,38 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+    <title>EasyCall</title>
 </head>
 
 <body>
   <div class="app">
-
-      <img class="foto" src="img/Hortense.jpg" alt="toto">
-      <h1>BILEULEU</h1>
-
-      <button type="button" name="button" href="#"><img class="icone" src="img/phone.png"><span>CALL</span></button>
-
+    <div class="homeLeft">
+      <div id="pen" class="left-col">
+        <a href="#" class="home-button">
+          <img src="img/pen.png" alt="toto" class="icon">
+        </a>
+      </div>
+      <div id="plus" class="left-col">
+        <a href="#" class="home-button">
+          <img src="img/plus.png" alt="tata" class="icon">
+        </a>
+      </div>
+      <div id="minus" class="left-col bg-red">
+        <a href="#" class="home-button">
+          <img src="img/minus.png" alt="tutu" class="icon">
+        </a>
+      </div>
     </div>
+    <div class="homeRight">
+      <a href="#" class="home-button">
+        <img src="img/phone.png" alt="yy" class="icon">
+      </a>
+    </div>
+
+  </div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/animations.js"></script>
     <script type="text/javascript">
         app.initialize();
     </script>
